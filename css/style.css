@@ -1,0 +1,23 @@
+.content {
+  /*margin: 20px;*/
+
+}
+.left-bar {
+  width: 250px;
+  height: calc(100vh - 2px);
+  margin: 0;
+  background: #dec3de;
+  border: 1px solid magenta;
+  /*border-bottom: 2px;*/
+}
+.menu-item{
+  width: content-box;
+  margin: auto;
+  /*alignment: center;*/
+  /*align-content: center;*/
+  text-align: center;
+  text-transform: uppercase;
+}
+h2{
+  color: darkmagenta;
+}

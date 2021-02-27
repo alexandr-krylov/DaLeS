@@ -3,21 +3,36 @@
 
 }
 .left-bar {
-  width: 250px;
+  width: 256px;
   height: calc(100vh - 2px);
   margin: 0;
   background: #dec3de;
   border: 1px solid magenta;
   /*border-bottom: 2px;*/
+  float: left;
 }
 .menu-item{
   width: content-box;
-  margin: auto;
+  margin: 15px;
+  padding: 5px;
   /*alignment: center;*/
   /*align-content: center;*/
   text-align: center;
   text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid green;
+  border-radius: 50px;
+  background: greenyellow;
 }
 h2{
   color: darkmagenta;
+}
+.logo{
+  padding: 3px;
+}
+.menu-item.pressed{
+  background-color: limegreen;
+}
+div.main-content{
+  padding: 10px 10px 10px 270px;
 }

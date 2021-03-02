@@ -77,5 +77,13 @@ p{
   border-top: 1px solid silver;
 }
 .contacts{
+  display: inline-block;
   margin: 10px;
+  padding: 10px;
+  border: 1px solid silver;
+  width: content-box;
+}
+.contacts span{
+  color: darkmagenta;
+  font-weight: bold;
 }

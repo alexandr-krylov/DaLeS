@@ -43,7 +43,9 @@ h2{
   background-color: limegreen;
 }
 div.main-content{
-  padding: 10px 10px 10px 270px;
+  padding: 10px;
+  height: calc(100vh - 20px);
+  overflow: auto;
 }
 
 p{
@@ -86,4 +88,26 @@ p{
 .contacts span{
   color: darkmagenta;
   font-weight: bold;
+}
+
+.medical-staff{
+
+}
+
+.medical-staff img{
+  display: block;
+  float: left;
+  margin: 15px;
+  margin-top: 0;
+  width: 150px;
+  height: 150px;
+}
+
+.medical-staff p{
+  display: block;
+  /*float: right;*/
+  margin: 15px;
+  margin-left: 180px;
+  padding: 10px;
+  height: 130px;
 }

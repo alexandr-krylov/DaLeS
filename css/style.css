@@ -111,3 +111,32 @@ p{
   padding: 10px;
   height: 130px;
 }
+.good{
+  margin: 10px;
+  height: 170px;
+  float: left;
+}
+.good img{
+  float: left;
+}
+.good-desc{
+  height: 100px;
+  width: 150px;
+  margin-left: 150px;
+  margin-bottom: 30px;
+  position: relative;
+  background-color: limegreen;
+}
+
+.price{
+  position: absolute;
+  bottom: -40px;
+  left: 14px;
+  width: 80%;
+  height: 25px;
+  border: 1px solid coral;
+  border-radius: 25px;
+  background-color: orange;
+  text-align: center;
+  padding-top: 5px;
+}

@@ -3,7 +3,6 @@ body{
   padding: 0;
 }
 .content {
-  /*margin: 20px;*/
   font-family: Arial, Helvetica, sans-serif;
 }
 .left-bar {
@@ -12,15 +11,12 @@ body{
   margin: 0;
   background: #dec3de;
   border: 1px solid magenta;
-  /*border-bottom: 2px;*/
   float: left;
 }
 .menu-item{
   width: content-box;
   margin: 15px;
   padding: 5px;
-  /*alignment: center;*/
-  /*align-content: center;*/
   text-align: center;
   text-transform: uppercase;
 
@@ -28,9 +24,6 @@ body{
   border-radius: 50px;
   background: greenyellow;
 }
-/*.main-content{*/
-/*  position: relative;*/
-/*}*/
 h2{
   color: darkmagenta;
   text-align: center;
@@ -47,7 +40,6 @@ div.main-content{
   height: calc(100vh - 20px);
   overflow: auto;
 }
-
 p{
   margin:20px;
   padding: 15px;
@@ -72,8 +64,6 @@ p{
 .contacts-wrap{
   height: 150px;
   width: calc(100% - 310px);
-  /*padding: 10px;*/
-  /*margin: 10px;*/
   position: absolute;
   bottom: 0;
   border-top: 1px solid silver;
@@ -89,25 +79,16 @@ p{
   color: darkmagenta;
   font-weight: bold;
 }
-
-.medical-staff{
-
-}
-
 .medical-staff img{
   display: block;
   float: left;
-  margin: 15px;
-  margin-top: 0;
+  margin: 0 15px 15px;
   width: 150px;
   height: 150px;
 }
-
 .medical-staff p{
   display: block;
-  /*float: right;*/
-  margin: 15px;
-  margin-left: 180px;
+  margin: 15px 15px 15px 180px;
   padding: 10px;
   height: 130px;
 }
@@ -146,24 +127,22 @@ p{
 }
 form{
   position: relative;
-  width: 590px;
+  width: 500px;
 }
 form div{
   margin: 15px;
 }
 form label{
-  /*display: block;*/
-  /*float: left;*/
   padding: 10px;
   text-transform: uppercase;
   font-weight: bold;
   max-width: 150px;
-  /*text-align: center;*/
-  /*align-content: baseline;*/
 }
 form textarea{
   width: 300px;
   height: 70px;
+  margin-left: 145px;
+  padding: 5px;
 }
 label input{
   margin: 10px;
@@ -172,6 +151,9 @@ form .submit{
   position: absolute;
   right: 0;
   background-color: limegreen;
-  /*border-radius: 2px;*/
-  /*alignment: right;*/
 }
+form label span{
+  position: absolute;
+  bottom: 70px;
+}
+

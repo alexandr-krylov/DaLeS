@@ -23,6 +23,7 @@ services:
             MYSQL_DATABASE: dales_db
         volumes:
             - db-data:/var/lib/mysql
+            - ./docker/db:/docker-entrypoint-initdb.d
     #   networks:
         # - wp-net
   

@@ -1,6 +1,5 @@
 <?php
-  require_once 'src/session.php';
-  echo phpinfo();
+require_once 'src/session.php';
 ?>
 <!doctype html>
 <html>
@@ -19,30 +18,19 @@
   <div class="content">
     <div class="left-bar">
       <div class="logo" id="logo"><img src="img/logo.png"></div>
-      <div class="menu-item pressed" id="home"><a href="index.html">home page</a></div>
+      <div class="menu-item" id="home"><a href="index.html">home page</a></div>
       <div class="menu-item" id="about-us"><a href="aboutUs.html">about us</a></div>
       <div class="menu-item" id="medics"><a href="medics.html">medics</a></div>
       <div class="menu-item" id="catalogue"><a href="catalogue.html">catalogue</a></div>
-      <div class="menu-item" id="appointment"><a href="appointment.html">appointment</a></div>
+      <div class="menu-item" id="appointment"><a href="appointment.php">appointment</a></div>
+      <div class="menu-item pressed" id="cabinet"><a href="cabinet.php">cabinet</a></div>
     </div>
     <div class="main-content">
-      <div>
-        <h2>What is podiatry?</h2>
-        <p>
-          Content about podiatry
-        </p>
-      </div>
-      <div>
-        <h2>Podiatry in Kazakhstan</h2>
-        <p>
-          Content about podiatry in Kazakhstan
-        </p>
-      </div>
+<?php
+require_once 'src/content.php';
+?>      
     </div>
   </div>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
 </body>
 
 </html>
